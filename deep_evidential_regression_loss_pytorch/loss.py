@@ -118,7 +118,7 @@ class EvidentialLossSumOfSquares(nn.Module):
     #Kl_divergence = torch.abs(y - targets) * (2*a + l)
     #Kl_divergence = 0.0
     #Kl_divergence = (torch.abs(y - targets) * (a-1) *  l)/b
-    Kl_divergence=kl_divergence_nig(y, targets, a, b, l)
+    Kl_divergence = self.kl_divergence_nig(y, targets, a, b, l)
     
     if self.debug:
       print ("KL ",Kl_divergence.data.numpy())
