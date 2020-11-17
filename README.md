@@ -19,8 +19,38 @@ It was rejected because of lack of experiments and similar ideas with Malinin th
 The goal is to implement the loss function and validate the results.
 
 
-## How to run   
+## Installation
 
+### Typical Install
+```
+pip install git+https://github.com/deebuls/deep_evidential_regression_loss_pytorch
+```
+
+### Development
+```
+git clone https://github.com/deebuls/deep_evidential_regression_loss_pytorch
+cd deep_evidential_regression_loss_pytorch
+pip install -e .[dev]
+```
+
+Tests can then be run from the root of the project using:
+```
+nosetests
+```
+
+## Usage
+
+To use this code `EvidentialLossSumOfSquares` and create loss function. `loss.py`
+implements the evidential loss function.
+
+Check examples for detailed usage example
+
+## ToDo
+
+1. Different variation of the loss (NLL, with log(alpha, beta, lambda))
+2. When output is image as case of VAE
+3. Examples
+4. Test cases
 
 
 ## Abstract
