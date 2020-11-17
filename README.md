@@ -73,6 +73,6 @@ various benchmarks, scales to complex computer vision tasks, and is robust to
 adversarial input perturbations.
 
 ## References
-[1] https://openreview.net/forum?id=S1eSoeSYwr&noteId=78WcDK50Bi
-[2] M. Sensoy, et al. "Evidential deep learning to quantify classification uncertainty." NeurIPS. 2018.
-[3] A. Malinin, et al. Predictive uncertainty estimation via prior networks. NeurIPS 2018.
+* [1] https://openreview.net/forum?id=S1eSoeSYwr&noteId=78WcDK50Bi
+* [2] M. Sensoy, et al. "Evidential deep learning to quantify classification uncertainty." NeurIPS. 2018.
+* [3] A. Malinin, et al. Predictive uncertainty estimation via prior networks. NeurIPS 2018.
