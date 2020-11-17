@@ -1,2 +1,1 @@
 from .loss import EvidentialLossSumOfSquares
-
