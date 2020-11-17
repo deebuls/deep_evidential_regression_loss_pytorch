@@ -37,7 +37,8 @@ setup(
     author_email="deebul.nair@h-brs.de",
     description="A Loss function which predicts posterior distribution for regression problems",
     long_description=read("README.md"),
-    packages=find_packages(exclude=('tests',)),
+    package_dir={'': 'deep_evidential_regression_loss_pytorch'},  # Optional
+    packages=find_packages(where=('deep_evidential_regression_loss_pytorch'),exclude=('tests',)),
     package_data={'': [
         '*.npz',
     ]},
