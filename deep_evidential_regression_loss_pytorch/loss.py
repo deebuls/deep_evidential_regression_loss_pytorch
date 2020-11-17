@@ -54,7 +54,7 @@ class EvidentialLossSumOfSquares(nn.Module):
     self.return_all_values = return_all
     self.MAX_CLAMP_VALUE = 5.0   # Max you can go is 85 because exp(86) is nan  Now exp(5.0) is 143 which is max of a,b and l
 
-  def kl_divergence_nig(mu1, mu2, alpha_1, beta_1, lambda_1):
+  def kl_divergence_nig(self, mu1, mu2, alpha_1, beta_1, lambda_1):
     alpha_2 = torch.ones_like(mu1)*1.0
     beta_2 = torch.ones_like(mu1)*0.1
     lambda_2 = torch.ones_like(mu1)*1.0
