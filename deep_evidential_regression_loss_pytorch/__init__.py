@@ -1,2 +1,2 @@
 from .loss import EvidentialLossSumOfSquares
-from .paper_loss.py import PaperEvidentialLossSumOfSquares
+from .paper_loss import PaperEvidentialLossSumOfSquares
